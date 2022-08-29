@@ -20,7 +20,7 @@
   <main>
     <div class="pokedex">
       <div class="cartoes-pokemon">
-        <div class="cartao-pokemon  aberto">
+        <div class="cartao-pokemon aberto" id="carto-pikachu">
           <div class="cartao-topo tipo-eletrico">
             <div class="detalhes">
               <h2 class="nome">Pikachu</h2>
@@ -58,14 +58,14 @@
           </div>
         </div>
 
-        <div class="cartao-pokemon">
-          <div class="cartao-topo">
+        <div class="cartao-pokemon" id="carto-bulbasaur">
+          <div class="cartao-topo tipo-grama">
             <div class="detalhes">
-              <h2 class="nome">Bulbasaur</h2>
+              <h2 class="nome">bulbasaur</h2>
               <span>#002</span>
             </div>
 
-            <span class="tipo">grama</span>
+            <span class="tipo">Planta</span>
 
             <div class="cartao-imagem">
               <img src="src/imagens/bulbasaur.png" alt="Imagem do bulbasaur" />
@@ -97,8 +97,8 @@
 
         </div>
 
-        <div class="cartao-pokemon">
-          <div class="cartao-topo">
+        <div class="cartao-pokemon" id="carto-charmander">
+          <div class="cartao-topo tipo-fogo">
             <div class="detalhes">
               <h2 class="nome">Charmander</h2>
               <span>#003</span>
@@ -136,8 +136,8 @@
 
         </div>
 
-        <div class="cartao-pokemon">
-          <div class="cartao-topo">
+        <div class="cartao-pokemon" id="carto-gyarados">
+          <div class="cartao-topo tipo-agua">
             <div class="detalhes">
               <h2 class="nome">Gyarados</h2>
               <span>#004</span>
@@ -175,8 +175,8 @@
 
         </div>
 
-        <div class="cartao-pokemon">
-          <div class="cartao-topo">
+        <div class="cartao-pokemon" id="carto-gengar">
+          <div class="cartao-topo tipo-trevas">
             <div class="detalhes">
               <h2 class="nome">Gengar</h2>
               <span>#005</span>
@@ -214,8 +214,8 @@
 
         </div>
 
-        <div class="cartao-pokemon">
-          <div class="cartao-topo">
+        <div class="cartao-pokemon" id="carto-dragonite">
+          <div class="cartao-topo tipo-drgao">
             <div class="detalhes">
               <h2 class="nome">Dragonite</h2>
               <span>#006</span>
@@ -256,27 +256,27 @@
 
       <nav class="listagem">
         <ul>
-          <li class="pokemon ativo">
+          <li class="pokemon ativo" id="pikachu">
             <img src="src/imagens/cabeca-pikachu.png" alt="cabeça do pikachu">
             <span>Pikachu</span>
           </li>
-          <li class="pokemon">
+          <li class="pokemon" id="bulbasaur">
             <img src="src/imagens/cabeca-bulbasaur.png" alt="cabeça do bulbasaur">
             <span>Bulbasaur</span>
           </li>
-          <li class="pokemon">
+          <li class="pokemon" id="charmander">
             <img src="src/imagens/cabeca-charmander.png" alt="cabeça do charmander">
             <span>Charmander</span>
           </li>
-          <li class="pokemon">
+          <li class="pokemon" id="gyarados">
             <img src="src/imagens/cabeca-gyarados.png" alt="cabeça do Gyarados">
             <span>Gyarados</span>
           </li>
-          <li class="pokemon">
+          <li class="pokemon" id="gengar">
             <img src="src/imagens/cabeca-gengar.png" alt="cabeça do Gengar">
             <span>Gengar</span>
           </li>
-          <li class="pokemon">
+          <li class="pokemon" id="dragonite">
             <img src="src/imagens/cabeca-dragonite.png" alt="cabeça do dragonite">
             <span>Dragonite</span>
           </li>
@@ -284,6 +284,7 @@
       </nav>
     </div>
   </main>
+  <script src="src/js/listagem.js"></script>
 </body>
 
 </html>
