@@ -198,14 +198,25 @@ main {
 
 .tipo-fogo {
     background-color: rgb(255, 0, 0) !important;
+
+    background-image: url(../imagens/bg_fogo.jpg);
+    background-size: cover;    
+    background-position: right;
 }
 
 .tipo-eletrico {
-    background-color: rgb(255 195 0) !important;
+    background-color: rgb(255 141 0) !important;
+    background-image: url(../imagens/bg_eletrico.jpg);
+    background-size: cover;
+    background-blend-mode: screen;
 }
 
 .tipo-agua {
     background-color: #76BEFE !important;
+    background-image: url(../imagens/bg_agua.jpg);
+    background-size: cover;
+    
+    background-blend-mode: luminosity;
 }
 
 .tipo-grama {
@@ -217,8 +228,13 @@ main {
 
 .tipo-trevas {
     background-color: #BA68C8 !important;
+    background-image: url(../imagens/bg_fantasma.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
 }
 
 .tipo-dragao {
     background-color: #C29791 !important;
+    background-image: url(../imagens/bg_dragao.jpg);
+    background-size: cover;
 }
