@@ -1,0 +1,160 @@
+.listagem {
+    max-width: 200px;
+}
+
+.listagem .pokemon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: rgb(187, 187, 187);
+    padding: 0 5px;
+    color: #fff;
+    cursor: pointer;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    min-height: 70px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    -webkit-animation: bounce-in-fwd 1.1s both;
+    animation: bounce-in-fwd 1.1s both
+}
+
+.listagem .pokemon:hover {
+    transform: scale(1.05) !important;
+}
+
+.listagem .pokemon img {
+    width: 25%;
+    border-radius: 50%;
+}
+
+.listagem .pokemon span {
+    padding-right: 20px;
+}
+
+.listagem .pokemon.ativo {
+    background-color: rgb(255, 196, 0);
+    font-weight: 500;
+    color: #000;
+
+}
+
+@-webkit-keyframes bounce-in-fwd {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+        opacity: 0
+    }
+
+    38% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+        opacity: 1
+    }
+
+    55% {
+        -webkit-transform: scale(.7);
+        transform: scale(.7);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in
+    }
+
+    72% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out
+    }
+
+    81% {
+        -webkit-transform: scale(.84);
+        transform: scale(.84);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in
+    }
+
+    89% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out
+    }
+
+    95% {
+        -webkit-transform: scale(.95);
+        transform: scale(.95);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out
+    }
+}
+
+@keyframes bounce-in-fwd {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+        opacity: 0
+    }
+
+    38% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+        opacity: 1
+    }
+
+    55% {
+        -webkit-transform: scale(.7);
+        transform: scale(.7);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in
+    }
+
+    72% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out
+    }
+
+    81% {
+        -webkit-transform: scale(.84);
+        transform: scale(.84);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in
+    }
+
+    89% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out
+    }
+
+    95% {
+        -webkit-transform: scale(.95);
+        transform: scale(.95);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out
+    }
+}
